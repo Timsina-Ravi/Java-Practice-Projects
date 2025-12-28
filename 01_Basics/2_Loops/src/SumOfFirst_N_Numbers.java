@@ -8,8 +8,9 @@ public class SumOfFirst_N_Numbers {
         int number = scanner.nextInt();
         int sum =0;
         for(int i = 1; i<= number; i++){
-            sum = i + number;
+            sum +=  i ;
         }
         System.out.println(sum);
+        scanner.close();
     }
 }

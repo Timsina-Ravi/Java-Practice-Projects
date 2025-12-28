@@ -9,5 +9,6 @@ public class NumbersFrom1ToN {
         for(int i = 1; i<=n; i++){
             System.out.println(i);
         }
+        scanner.close();
     }
 }
